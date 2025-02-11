@@ -3,7 +3,7 @@
   "name": "tmlanguage-previewer",
   "displayName": "tmLanguage Previewer",
   "type": "commonjs",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "private": true,
   "packageManager": "pnpm@9.15.4",
   "repository": {
