@@ -81,7 +81,7 @@ export function usePreviewer(editor: TextEditor) {
 
     const tokenizer = shallowRef<Awaited<ReturnType<typeof getTokenizer>> | null>(null)
     watchEffect((onCleanup) => {
-      // eslint-disable-next-line no-unused-expressions
+      // eslint-disable-next-line ts/no-unused-expressions
       forceUpdateGrammars.value
       let cancelled = false
       onCleanup(() => {
