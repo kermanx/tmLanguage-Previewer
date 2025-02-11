@@ -8,7 +8,7 @@ export function useAutoStart() {
     if (!autoStart.value || !activeTextEditor.value)
       return
     const doc = activeTextEditor.value.document
-    if (doc.languageId === 'json' && doc.uri.fsPath.toLowerCase().endsWith('.tmlanguage.json'))
+    if (doc.languageId.includes('json') && doc.uri.fsPath.toLowerCase().endsWith('.tmlanguage.json'))
       usePreviewer(activeTextEditor.value)
   })
 }
