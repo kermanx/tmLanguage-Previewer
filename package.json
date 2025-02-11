@@ -16,7 +16,7 @@
   "main": "./dist/extension/index.js",
   "icon": "./icon.png",
   "files": [
-    "README.md",
+    "LICENSE",
     "dist",
     "icon.png",
     "package.json"
