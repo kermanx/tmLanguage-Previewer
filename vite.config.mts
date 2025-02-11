@@ -16,14 +16,7 @@ export default defineConfig({
     Vscode({
       extension: {
         noExternal: [
-          'reactive-vscode',
-          'shiki',
-          '@shikijs/core',
-          '@tomjs/vite-plugin-vscode',
-          '@reactive-vscode/vueuse',
-          '@reactive-vscode/reactivity',
-          '@vue/reactivity',
-          '@vue/shared',
+          /^(?!vscode$).*$/,
         ],
         define: {
           __DEV__: 'true',
