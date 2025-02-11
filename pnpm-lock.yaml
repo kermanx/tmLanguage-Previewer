@@ -27,7 +27,7 @@ importers:
         specifier: 18.x
         version: 18.19.38
       '@types/vscode':
-        specifier: ^1.97.0
+        specifier: ^1.89.0
         version: 1.97.0
       '@unocss/reset':
         specifier: ^0.61.9
